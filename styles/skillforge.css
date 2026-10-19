@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;600;700&family=Roboto:wght@400;500;700&family=JetBrains+Mono&display=swap');
+
+:root {
+  --skillforge-dark: #1e2a33;
+  --skillforge-grey: #4a5a63;
+  --skillforge-blue: #2d9bf0;
+
+  /* Zone réservée au bloc marque en bas de slide */
+  --brand-banner-height: 70px;
+}
+
+/* Typographies */
+html {
+  font-family: 'Roboto', sans-serif;
+  color: var(--skillforge-dark);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Oswald', sans-serif !important;
+  color: var(--skillforge-blue);
+  font-weight: 600;
+}
+
+h1 {
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.slidev-code, code, pre {
+  font-family: 'JetBrains Mono', monospace !important;
+}
+
+/* Liens / accents */
+a {
+  color: var(--skillforge-blue);
+}
+
+a:hover {
+  color: var(--skillforge-dark);
+}
+
+blockquote {
+  border-left: 4px solid var(--skillforge-blue);
+  color: var(--skillforge-grey);
+}
+
+/* Contenu de slide : on laisse de la place au bloc marque */
+.slidev-layout {
+  position: relative;
+  padding-bottom: calc(var(--brand-banner-height) + 20px);
+}
+
+/* Logo : haut droite */
+.brand-logo {
+  position: absolute;
+  top: 20px;
+  right: 24px;
+  width: 64px;
+  height: 64px;
+  z-index: 50;
+  pointer-events: none;
+}
+
+.brand-logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+/* Bloc marque : bas de page, centré */
+.brand-banner {
+  position: absolute;
+  bottom: 8px;
+  left: 50%;
+  transform: translateX(-50%);
+  height: var(--brand-banner-height);
+  z-index: 50;
+  pointer-events: none;
+}
+
+.brand-banner img {
+  height: 100%;
+  width: auto;
+  object-fit: contain;
+}
