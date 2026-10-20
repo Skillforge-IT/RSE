@@ -270,7 +270,7 @@ layout:center
 # Cas 2 · PC lent : remplacer ?
 <div class="flex justify-center">
 
-```mermaid {scale: 0.50}
+```mermaid {scale: 0.75}
 flowchart LR
  A[PC lent] --> B{Cause ?}
  B -->|RAM saturée / disque lent| C[Upgrade RAM ou SSD]
@@ -448,7 +448,7 @@ flowchart LR
 # Réemploi : le parcours d’un équipement
 <div class="flex justify-center">
 
-```mermaid {scale: 0.50}
+```mermaid {scale: 0.75}
 sequenceDiagram
  participant S as Support
  participant I as Inventaire
