@@ -38,21 +38,6 @@ Timing : 5 min. Accueillir, donner le fil rouge : chaque décision de support es
 
 ---
 
-# Le fil rouge de la séance
-
-<div class="timeline">
-  <div><b>13:30</b><span>Comprendre</span><small>RSE · repères</small></div>
-  <div><b>14:05</b><span>Mesurer</span><small>impacts · cycle de vie</small></div>
-  <div><b>14:45</b><span>Agir</span><small>gestes · parc · utilisateurs</small></div>
-  <div><b>15:25</b><span>Transformer</span><small>circularité · démarche</small></div>
-  <div><b>16:05</b><span>Consolider</span><small>cas · quiz · synthèse</small></div>
-</div>
-
-<div class="callout">Horaires indicatifs · pauses éventuelles hors temps de contenu.</div>
-
-<!-- Timing : 3 min. Présenter le déroulé et le rythme des activités courtes. -->
-
----
 
 # Accroche · le ticket qui coûte plus qu’il n’y paraît
 
@@ -286,7 +271,7 @@ layout:center
 <div class="flex justify-center">
 
 ```mermaid {scale: 0.50}
-flowchart TD
+flowchart LR
  A[PC lent] --> B{Cause ?}
  B -->|RAM saturée / disque lent| C[Upgrade RAM ou SSD]
  B -->|OS / logiciels| D[Nettoyer, mettre à jour, réinstaller]
