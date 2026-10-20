@@ -270,7 +270,7 @@ layout:center
 # Cas 2 · PC lent : remplacer ?
 <div class="flex justify-center">
 
-```mermaid {scale: 0.75}
+```mermaid {scale: 0.72}
 flowchart LR
  A[PC lent] --> B{Cause ?}
  B -->|RAM saturée / disque lent| C[Upgrade RAM ou SSD]
